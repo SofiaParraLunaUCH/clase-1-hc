@@ -1,0 +1,10 @@
+var d;
+function setup() {
+  createCanvas(windowWidth, windowHeight);
+ background(124,210,255);
+}
+
+function draw() {
+  d = random (10,50)
+  fill(255,random(55,200));
+  ellipse(mouseX,mouseY,d,d);}
